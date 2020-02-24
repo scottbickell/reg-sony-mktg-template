@@ -129,7 +129,13 @@ th.expander {
   width: 0;
   padding: 0 !important; }
 
-p.text-center {
+p.text-center,
+span.text-center {
+  text-align: center; }
+
+span.text-center {
+  display: block;
+  width: 100%;
   text-align: center; }
 
 @media only screen and (max-width: 600px) {
@@ -323,6 +329,14 @@ p {
 
 .message-body a {
   text-decoration: underline; }
+
+.view-online {
+  font-size: 11px;
+  text-align: center;
+  display: inline-block; }
+  .view-online a {
+    color: #737373;
+    text-decoration: underline; }
 
 table.button table td a {
   letter-spacing: 1px;
