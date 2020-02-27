@@ -1,0 +1,205 @@
+@import 'settings';
+@import 'foundation-emails';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap');
+
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+
+span.nowrap {
+  white-space: nowrap;
+}
+
+p.plan-details {
+  line-height: 1.8
+}
+
+td {
+  hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+}
+
+a,
+a:visited,
+a:hover {
+  color: #004bb7;
+}
+
+// <br class="mobile-hardbreak">
+
+h1,
+h2,
+h3 {
+  color: #004bb7;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.dark-blue {
+  color: #004bb7;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.purchase-details {
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+.message-body a {
+  text-decoration: underline;
+}
+
+a.telephone {
+  color: #737373;
+}
+
+.view-online {
+    font-size: 11px;
+    text-align: center;
+    display:inline-block;
+
+    a {
+        color: #737373;
+        text-decoration: underline;
+    }
+}
+
+.your-plan-details-icon {
+  width: 300px;
+}
+
+.show-column {
+  background: #e5e5e5;
+}
+
+table.button table td a {
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+table.button table td {
+  text-align: center !important;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+table.cta-container td.cta-content {
+    border: 1px solid #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    h3 {
+        font-size: 24px;
+        color: $dark-gray;
+        font-weight: normal;
+    }
+
+    .plus {
+        color: #004bb7;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.most-popular {
+    background-color: #cccccc;
+
+    h2 {
+        text-align: center;
+        font-size: 16px;
+        color: $dark-gray;
+        font-weight: bold;
+    }
+}
+
+.secondary-cta h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+    color: #2c4f8d;
+}
+
+.footer {
+    a, p {
+        color: #4d4d4d;
+        font-size: 12px;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+.footer .spacer {
+  display: inline-block;
+  width: 20px;
+}
+
+.mobile-hardbreak {
+  display: inline-block;
+  width: 10px;
+}
+
+.align-right {
+    * {
+        float: right;
+        font-size: 11px;
+    }
+}
+
+th.large-6 {
+    padding-right: 0;
+}
+
+
+@media only screen and (max-width: 670px) {
+  table.body .columns {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  img.your-plan-details-icon {
+    width: 250px !important;
+  }
+
+  .purchase-details {
+    border-left: none;
+    border-right: none;
+    padding: 15px 0;
+  }
+
+  .mobile-hardbreak {
+    display: none;
+  }
+
+  .your-plan-details {
+    border: 1px solid #cccccc;
+    padding: 20px;
+  }
+
+  table.body img.sony-logo {
+      width: 135px;
+  }
+
+}
